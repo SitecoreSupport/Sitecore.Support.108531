@@ -83,7 +83,11 @@ namespace Sitecore.Support.Shell.Applications.Analytics.TrackingField
           return;
         }
 
-        var name = campaign["Title"];
+        var name = campaign.Fields["Title"].GetValue(false, false);
+        if (string.IsNullOrEmpty(name))
+        {
+          name = campaign.Name;
+        }
 
         var id = "campaign_" + ShortID.Encode(campaign.ID);
         var isChecked = selected.IndexOf(campaign.ID.ToString()) >= 0 ? " checked=\"checked\"" : string.Empty;

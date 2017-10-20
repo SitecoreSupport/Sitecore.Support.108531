@@ -74,6 +74,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zzz\Sitecore.Support.108531.config" />
+    <Content Include="Sitecore\Shell\Applications\Analytics\TrackingField\TrackingField.xaml.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

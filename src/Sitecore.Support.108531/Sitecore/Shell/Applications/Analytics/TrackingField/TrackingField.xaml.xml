@@ -10,7 +10,7 @@
   xmlns:html="http://www.sitecore.net/microsoft/htmlcontrols"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-  <Sitecore.Shell.Applications.Analytics.TrackingField x:inherits="Sitecore.Shell.Applications.Analytics.TrackingField.TrackingFieldPage,Sitecore.Marketing.Client">
+  <Sitecore.Shell.Applications.Analytics.TrackingField x:inherits="Sitecore.Support.Shell.Applications.Analytics.TrackingField.TrackingFieldPage,Sitecore.Support.108531">
     <x:register assembly="ComponentArt.Web.UI" namespace="ComponentArt.Web.UI" />
 
     <Sitecore.Controls.DialogPage runat="server" Header="Attributes" Text="Select the campaigns, events, or failure actions that you want to associate with the selected item.">
